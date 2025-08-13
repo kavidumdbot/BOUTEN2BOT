@@ -7,7 +7,7 @@ let connRef = null;
 const cache = new Map(); // chat-based session cache
 
 const API = 'https://api-vishwa.vercel.app';
-const BRAND = '🔰 *GOJO-MD* 🔰';
+const BRAND = '🔰 *𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳* 🔰';
 
 cmd({
   pattern: "movis5",
@@ -153,7 +153,7 @@ if (!global.__movis_list_handler) {
         await connRef.sendMessage(chat, {
           document: { url: link.link },
           mimetype: 'video/mp4',
-          fileName: `${info.title}-${link.quality}-GOJO-MD.mp4`,
+          fileName: `${info.title}-${link.quality}-𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳.mp4`,
           caption: `🎬 *${info.title} – ${link.quality}*\n\n${BRAND}`
         }, { quoted: msg });
 
