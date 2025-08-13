@@ -5,14 +5,14 @@ cmd(
   {
     pattern: "ping",
     desc: "Check bot response speed",
-    react: "🏓",
+    react: "🛸",
     type: "main",
     filename: __filename,
   },
   async (conn, mek, m, { from }) => {
     const start = Date.now();
 
-    const sentMsg = await conn.sendMessage(from, { text: "🏓 *Pong!* Measuring..." }, { quoted: mek });
+    const sentMsg = await conn.sendMessage(from, { text: "🎯 *Pong!* Measuring..." }, { quoted: mek });
     const end = Date.now();
     const ping = end - start;
 
