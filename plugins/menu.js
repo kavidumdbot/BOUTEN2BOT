@@ -17,7 +17,6 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, fetchJson , runt
         }
       }
     };
-
 cmd({
     pattern: "menu",
     react: "📂",
