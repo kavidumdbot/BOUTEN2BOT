@@ -60,7 +60,7 @@ var { updateCMDStore,isbtnID,getCMDStore,getCmdForCmdId,connectdb,input,get,updb
 var { get_set , input_set } = require('./lib/set_db')        
 const axios = require('axios')
  function genMsgId() {
-  const lt = 'GojoTech';
+  const lt = 'kaviduteck';
   const prefix = "3EB";
   const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
   let randomText = prefix;
@@ -149,10 +149,10 @@ async function connectToWA() {
             console.log('Plugins installed ✅')
             console.log('Bot connected ✅')
 await conn.sendMessage(config.OWNER_NUMBER + "@s.whatsapp.net", {
-text: "*👨‍💻 GOJO MD 👨‍💻 successfully connected* ✓\n\n Use .Update command to see GOJO md new update news \n\n> ◦ *Official  Chanel* - ```https://whatsapp.com/channel/0029VbB9tgf4NVih7bqzzf0s```\n> ◦ ᴊᴏɪɴ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴠɪᴀ ᴛʏᴘᴇ: .joinsup\n*👨‍💻 GOJO ᴍᴅ 👨‍💻 ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ*\n*ᴄʀᴇᴀᴛᴇᴅ ʙʏ • sayura mihiranga*",
+text: "*𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳 successfully connected* ✓\n\n Use .Update command to see GOJO md new update news \n\n> ◦ *Official  Chanel* - ```https://whatsapp.com/channel/0029VbB9tgf4NVih7bqzzf0s```\n> ◦ ᴊᴏɪɴ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴠɪᴀ ᴛʏᴘᴇ: .joinsup\n*👨‍💻 GOJO ᴍᴅ 👨‍💻 ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ*\n*ᴄʀᴇᴀᴛᴇᴅ ʙʏ • sayura mihiranga*",
 contextInfo: {
 externalAdReply: {
-title: "👨‍💻 GOJO MD 👨‍💻\nSuccessfully Connected !",	
+title: "𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳\nSuccessfully Connected !",	
 thumbnailUrl: "https://raw.githubusercontent.com/gojo18888/Photo-video-/refs/heads/main/file_000000003a2861fd8da00091a32a065a.png",
 sourceUrl: "",
 mediaType: 1,
@@ -389,11 +389,11 @@ q = args.join(' ')
             const senderNumber = sender.split('@')[0]
             const botNumber = conn.user.id.split(':')[0]
             const pushname = mek.pushName || 'Sin Nombre'
-	    const ownbot = '94743826406'
+	    const ownbot = '94767054052'
 	    const isownbot = ownbot?.includes(senderNumber)
-            const gojo = '94743826406'
+            const gojo = '94767054052'
             const isgojo = gojo?.includes(senderNumber)
-	    const developers = '94743826406'
+	    const developers = '94767054052'
             const isbot = botNumber.includes(senderNumber)
 	    const isdev = developers.includes(senderNumber) 	    
             let epaneda =  ''
@@ -448,10 +448,10 @@ contextInfo: {
     isForwarded: true,
     
 externalAdReply: { 
-title: '👨‍💻 GOJO - ＭＤ 👨‍💻',
+title: '𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
-sourceUrl: "https://wa.me/94743826406" ,
+sourceUrl: "https://wa.me/94767054052" ,
 thumbnailUrl: 'https://raw.githubusercontent.com/gojo18888/Photo-video-/refs/heads/main/file_000000003a2861fd8da00091a32a065a.png' ,
 renderLargerThumbnail: false,
 showAdAttribution: true
@@ -482,10 +482,10 @@ const textmsg = await conn.sendMessage(from, { text: buttonMessage ,
     isForwarded: true,
     
 externalAdReply: { 
-title: '👨‍💻 GOJO - ＭＤ 👨‍💻',
+title: '𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
-sourceUrl: "https://wa.me/94743826406" ,
+sourceUrl: "https://wa.me/94767054052" ,
 thumbnailUrl: 'https://raw.githubusercontent.com/gojo18888/Photo-video-/refs/heads/main/file_000000003a2861fd8da00091a32a065a.png' ,
 renderLargerThumbnail: false,
 showAdAttribution: true
@@ -502,10 +502,10 @@ contextInfo: {
     isForwarded: true,
     
 externalAdReply: { 
-title: '👨‍💻 GOJO - ＭＤ 👨‍💻',
+title: '𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
-sourceUrl: "https://wa.me/94743826406" ,
+sourceUrl: "https://wa.me/94767054052" ,
 thumbnailUrl: 'https://raw.githubusercontent.com/gojo18888/Photo-video-/refs/heads/main/file_000000003a2861fd8da00091a32a065a.png' ,
 renderLargerThumbnail: false,
 showAdAttribution: true
@@ -574,10 +574,10 @@ const textmsg = await conn.sendMessage(from, { text: buttonMessage ,contextInfo:
     isForwarded: true,
     
 externalAdReply: { 
-title: '👨‍💻 GOJO - ＭＤ 👨‍💻',
+title: '𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
-sourceUrl: "https://wa.me/94743826406" ,
+sourceUrl: "https://wa.me/94767054052" ,
 thumbnailUrl: 'https://raw.githubusercontent.com/gojo18888/Photo-video-/refs/heads/main/file_000000003a2861fd8da00091a32a065a.png' ,
 renderLargerThumbnail: false,
 showAdAttribution: true
@@ -593,10 +593,10 @@ const imgmsg = await conn.sendMessage(jid, { image: msgData.image, caption: butt
     isForwarded: true,
     
 externalAdReply: { 
-title: '👨‍💻 GOJO - ＭＤ 👨‍💻',
+title: '𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
-sourceUrl: "https://wa.me/94743826406" ,
+sourceUrl: "https://wa.me/94767054052" ,
 thumbnailUrl: 'https://raw.githubusercontent.com/gojo18888/Photo-video-/refs/heads/main/file_000000003a2861fd8da00091a32a065a.png' ,
 renderLargerThumbnail: false,
 showAdAttribution: true
@@ -639,10 +639,10 @@ contextInfo: {
     isForwarded: true,
     
 externalAdReply: { 
-title: '👨‍💻 GOJO - ＭＤ 👨‍💻',
+title: '𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
-sourceUrl: "https://wa.me/94743826406" ,
+sourceUrl: "https://wa.me/94767054052" ,
 thumbnailUrl: 'https://raw.githubusercontent.com/gojo18888/Photo-video-/refs/heads/main/file_000000003a2861fd8da00091a32a065a.png' ,
 renderLargerThumbnail: false,
 showAdAttribution: true
@@ -683,10 +683,10 @@ contextInfo: {
     isForwarded: true,
     
 externalAdReply: { 
-title: '👨‍💻 GOJO - ＭＤ 👨‍💻',
+title: '𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
-sourceUrl: "https://wa.me/94743826406" ,
+sourceUrl: "https://wa.me/94767054052" ,
 thumbnailUrl: 'https://raw.githubusercontent.com/gojo18888/Photo-video-/refs/heads/main/file_000000003a2861fd8da00091a32a065a.png' ,
 renderLargerThumbnail: false,
 showAdAttribution: true
@@ -974,7 +974,7 @@ events.commands.map(async (command) => {
     })
 }
 app.get("/", (req, res) => {
-res.send("📟 Gojo-Md Working successfully!");
+res.send("📟 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳 Working successfully!");
 });
 app.listen(port, () => console.log(`gojo-Md Server listening on port http://localhost:${port}`));
 setTimeout(() => {
