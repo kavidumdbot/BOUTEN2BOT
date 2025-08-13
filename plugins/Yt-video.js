@@ -8,7 +8,7 @@ const cache = new Map(); // session: chat → video list
 cmd({
     pattern: "video2",
     alias: ["mp4", "ytv"],
-    react: "🎥",
+    react: "📥",
     desc: "Search & download YouTube videos!",
     category: "download",
     filename: __filename
@@ -46,7 +46,7 @@ cmd({
 
         const listMsg = {
             text: `*🎬 YouTube Search Results*\n\nSelect a video to download.`,
-            footer: "© Gojo | Video Downloader",
+            footer: "© 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳 | Video Downloader",
             title: "🔍 Your Search Result",
             buttonText: "📂 View Videos",
             sections: [{
@@ -105,7 +105,7 @@ if (!global.__video2_list_handler) {
                 await connRef.sendMessage(chat, {
                     video: { url: data.result.download_url },
                     mimetype: 'video/mp4',
-                    caption: `*🎬 ${video.title}*\n\nDownloaded via Gojo Bot`
+                    caption: `*🎬 ${video.title}*\n\nDownloaded 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳 Bot`
                 }, { quoted: msg });
 
                 await connRef.sendMessage(chat, { react: { text: "✅", key: msg.key } });
