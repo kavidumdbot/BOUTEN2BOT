@@ -42,7 +42,7 @@ cmd({
 
     const listMsg = {
       text: "*🎵 Song Search Results*\n\nSelect a song to download below.",
-      footer: "© Gojo | Song Downloader",
+      footer: "© 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳 | Song Downloader",
       title: "🔍 Your Search Result",
       buttonText: "🎧 View Songs",
       sections: [{
@@ -99,7 +99,7 @@ if (!global.__song_list_handler) {
           audio: { url: songData.download.url },
           mimetype: "audio/mpeg",
           fileName: `${info.title}.mp3`,
-          caption: `*🎶 ${info.title}*\n\nSource: ${info.url}\n_Powered by Gojo_`
+          caption: `*🎶 ${info.title}*\n\nSource: ${info.url}\n_Powered by 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳_`
         }, { quoted: msg });
 
         await connRef.sendMessage(chat, { react: { text: "✅", key: msg.key }});
