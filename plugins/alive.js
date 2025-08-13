@@ -5,7 +5,7 @@ cmd({
   pattern: "alive",
   alias: ["bot"],
   desc: "Show bot status with button UI and photo",
-  react: "👻",
+  react: "👾",
   category: "main",
   filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
@@ -23,7 +23,7 @@ cmd({
     const cpuCores = os.cpus().length;
 
     const caption = 
-`⚡ *GOJO Bot Status* ⚡
+`⚡ *𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳 Bot Status* ⚡
 
 🟢 *Online:* Yes  
 ⏳ *Uptime:* ${uptimeStr}  
@@ -35,9 +35,9 @@ cmd({
 
     // Send the message with photo + buttons
     await conn.sendMessage(from, {
-      image: { url: "https://raw.githubusercontent.com/gojo18888/Photo-video-/refs/heads/main/file_000000003a2861fd8da00091a32a065a.png" },
+      image: { url: "https://i.ibb.co/nsqDV3w1/541.jpg" },
       caption,
-      footer: "Powered by GOJO ⚡",
+      footer: "Powered by kavidu induwara ⚡",
       buttons: [
         { buttonId: ".menu", buttonText: { displayText: "📂 Menu" }, type: 1 },
         { buttonId: ".system", buttonText: { displayText: "🖥️ System Info" }, type: 1 }
