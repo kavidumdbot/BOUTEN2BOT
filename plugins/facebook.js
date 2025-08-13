@@ -47,7 +47,7 @@ cmd({
 
     const listMsg = {
       text: `*📥 Facebook Video Downloader*\n\nSelect the quality below to download:`,
-      footer: "⚡ GOJO FB DOWNLOADER",
+      footer: "⚡ 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳 FB DOWNLOADER",
       title: "🎬 Available Video Qualities",
       buttonText: "📂 View Options",
       sections: [{
@@ -97,7 +97,7 @@ if (!global.__fb_list_handler) {
 
         await connRef.sendMessage(chat, {
           video: { url: info.url },
-          caption: `📥 *Downloaded in ${info.quality} Quality*\n\n⚡ _Powered by GOJO_`
+          caption: `📥 *Downloaded in ${info.quality} Quality*\n\n⚡ _Powered by 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳_`
         }, { quoted: msg });
 
         await connRef.sendMessage(chat, { react: { text: "✅", key: msg.key } });
