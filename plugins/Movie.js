@@ -2,7 +2,7 @@ const { cmd } = require('../lib/command');
 const axios = require('axios');
 const config = require('../settings');
 
-const BRAND = '✫☘𝐆𝐎𝐉𝐎 𝐌𝐎𝐕𝐈𝐄 𝐇𝐎𝐌𝐄☢️☘';
+const BRAND = '𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳 𝙼𝙾𝚅𝙸𝙴 𝙷𝙾𝙼𝙴🧬';
 const cache = new Map();
 let connRef = null;
 
