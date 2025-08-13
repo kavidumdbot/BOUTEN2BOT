@@ -38,8 +38,8 @@ cmd({
 
         let buttonSections = [
             {
-                title: "List of GOJO MOVIE X Bot Commands",
-                highlight_label: "GOJO MOVIE X",
+                title: "List of 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳 MOVIE  Bot Commands",
+                highlight_label: "𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳 MOVIE ",
                 rows: vpsOptions
             }
         ];
