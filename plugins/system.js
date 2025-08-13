@@ -63,7 +63,7 @@ _Node ${process.version}_`;
     /* 4️⃣ send message */
     await conn.sendMessage(from, {
       caption,
-      image: { url: 'https://raw.githubusercontent.com/gojo18888/Photo-video-/refs/heads/main/file_000000003a2861fd8da00091a32a065a.png' },
+      image: { url: 'https://i.ibb.co/nsqDV3w1/541.jpg' },
       buttons,
       headerType: 4,
       viewOnce : true
@@ -80,13 +80,13 @@ _Node ${process.version}_`;
 ───────────────────────────────*/
 cmd({
   pattern : 'ping',
-  react   : '🏓',
+  react   : '🛸',
   desc    : 'Check bot latency',
   category: 'misc',
   filename: __filename
 }, async (conn, mek, m, { from }) => {
   const t0 = Date.now();
-  await conn.sendMessage(from, { react: { text: '🏓', key: mek.key } });
+  await conn.sendMessage(from, { react: { text: '🎯', key: mek.key } });
   const ping = Date.now() - t0;
-  await conn.sendMessage(from, { text: `🏓 *Pong!* _${ping} ms_` }, { quoted: mek });
+  await conn.sendMessage(from, { text: `🎯 *Pong!* _${ping} ms_` }, { quoted: mek });
 });
