@@ -10,7 +10,7 @@ cmd({
     alias: ["ttdl", "tt", "tiktokdl"],
     desc: "Download TikTok video with quality select",
     category: "downloader",
-    react: "📥",
+    react: "🎭",
     filename: __filename
 },
 async (conn, mek, m, { from, args, q, reply }) => {
@@ -45,9 +45,9 @@ async (conn, mek, m, { from, args, q, reply }) => {
 
         const listMsg = {
             text: `*🎵 TikTok Video Found*\n👤 *User:* ${author.nickname}\n♥️ *Likes:* ${like}   💬 *Comments:* ${comment}   ♻️ *Shares:* ${share}\n\nSelect your preferred quality:`,
-            footer: "⚡ Gojo TikTok Downloader",
-            title: "📥 Available Qualities",
-            buttonText: "🎬 Select Quality",
+            footer: "🎯 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳 TikTok Downloader",
+            title: "👾 Available Qualities",
+            buttonText: "🧬 Select Quality",
             sections: [{
                 title: "Video Qualities",
                 rows
@@ -95,7 +95,7 @@ if (!global.__tt_list_handler) {
 
                 await connRef.sendMessage(chat, {
                     video: { url: video.org },
-                    caption: `🎬 *TikTok Video*\n💡 *Quality:* ${video.quality || "Unknown"}\n\n⚡ _Powered by GOJO_`,
+                    caption: `🎬 *TikTok Video*\n💡 *Quality:* ${video.quality || "Unknown"}\n\n⚡ _Powered by 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳_`,
                 }, { quoted: msg });
 
                 await connRef.sendMessage(chat, { react: { text: "✅", key: msg.key } });
