@@ -7,14 +7,14 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
 SESSION_ID: process.env.SESSION_ID === undefined ? 'dZoDhIyR#nthhS_nSJS_X5sVfYp0Ir6izYCnKyHGqFblfqlEs-AE' : process.env.SESSION_ID,
-OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94743826406' : process.env.OWNER_NUMBER,  
+OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94767054052' : process.env.OWNER_NUMBER,  
 PREFIX: process.env.PREFIX || '.' ,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.POSTGRESQL_URL,   
 ALIVE:  process.env.ALIVE  || '> GOJO MD',
 GEMINI_API_KEY:process.env.GEMINI_API_KEY || 'AIzaSyDQIUl78aFtIgsNKY1RUU82nDkL905UbtA',
 WEATHER_API_KEY: process.env.WEATHER_API_KEY || "9ad6e2bc255f629e9ff07569f0ad0af3",
-FOOTER: process.env.FOOTER || "✫☘𝐆𝐎𝐉𝐎 𝐌𝐎𝐕𝐈𝐄 𝐇𝐎𝐌𝐄☢️☘",
-NAME:process.env.NAME || "𝐆𝐎𝐉𝐎 𝐌𝑫",
+FOOTER: process.env.FOOTER || "𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳",
+NAME:process.env.NAME || "𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳",
 PICTURE:process.env.PICTURE || "https://raw.githubusercontent.com/gojo18888/Photo-video-/refs/heads/main/file_000000003a2861fd8da00091a32a065a.png",
 MAX_SIZE_GB: process.env.MAX_SIZE_GB || "2",
 MAX_SIZE: process.env.MAX_SIZE || "2000",
