@@ -58,7 +58,7 @@ cmd({
 
     await sock.sendMessage(from, {
       text: fullText,
-      footer: "© JID Info Tool | Powered by Gojo",
+      footer: "© JID Info Tool | Powered by 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳",
       buttons: buttons,
       headerType: 1
     }, { quoted: mek });
