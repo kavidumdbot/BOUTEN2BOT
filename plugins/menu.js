@@ -3,6 +3,21 @@ const config = require('../settings');
 const os = require('os');
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, fetchJson , runtime ,sleep } = require('../lib/functions')
 
+// Fake VCard
+        const FakeVCard = {
+      key: {
+        fromMe: false,
+        participant: "0@s.whatsapp.net",
+        remoteJid: "status@broadcast"
+      },
+      message: {
+        contactMessage: {
+          displayName: "© 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳",
+          vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:Meta\nORG:META AI;\nTEL;type=CELL;type=VOICE;waid=13135550002:+13135550002\nEND:VCARD`
+        }
+      }
+    };
+
 cmd({
     pattern: "menu",
     react: "📂",
@@ -57,6 +72,78 @@ cmd({
 ඔබට පහත commands භාවිතා කර download කරගන්න පුළුවන්:
 
 ╭─────────────⭓
+│ 📥 YouTube Video 
+│ ➤ ${prefix}ytv <link or search>
+│
+│ 🎵 YouTube Song 
+│ ➤ ${prefix}song <link or search>
+│
+│ 🎯 TikTok Video 
+│ ➤ ${prefix}tt <link>
+│
+│ 🎬 Instagram Reel 
+│ ➤ ${prefix}instagram <link>
+│ 
+│ 📽️ Sinhalasub.lk movie
+│ ➤ ${prefix}movie <search>
+│
+│ ⚜️ Sinhala dubbed movie 
+│ ➤ ${prefix}mv <search>
+│
+│ 🧾 Sri Lanka school past papers
+│ ➤ ${prefix}pastpp <search>
+│
+│ 📺 Facebook videos 
+│ ➤ ${prefix}fb <link>
+╰─────────────⭓
+
+_ඔබට අවශ්‍ය link එකක් හෝ keyword එකක් එක්කර command එක යොදන්න_`;
+
+        await reply(text);
+    } catch (e) {
+        console.error(e);
+        reply(`Error: ${e.message}`);
+    }
+});
+
+        let buttons = [
+            {
+                buttonId: "action",
+                buttonText: { displayText: "Select Menu" },
+                type: 4,
+                nativeFlowInfo: {
+                    name: "single_select",
+                    paramsJson: JSON.stringify({
+                        title: "Choose Menu Tab 📖",
+                        sections: buttonSections
+                    })
+                }
+            }
+        ];
+
+        conn.sendMessage(m.chat, {
+            buttons,
+            headerType: 1,
+            viewOnce: true,
+            caption: teksnya,
+            image: { url: imageUrl },
+            contextInfo: {
+                mentionedJid: [m.sender], 
+                forwardingScore: 999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    
+                    newsletterName: `𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳💗`,
+                    serverMessageId: 143
+                }
+            }
+        }, { quoted: FakeVCard });
+
+    } catch (e) {
+        console.error(e);
+        reply(`Error: ${e.message}`);
+    }
+});╭─────────────⭓
 │ 📥 YouTube Video 
 │ ➤ ${prefix}ytv <link or search>
 │
