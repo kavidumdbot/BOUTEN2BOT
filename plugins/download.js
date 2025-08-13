@@ -31,7 +31,7 @@ cmd({
 
     const listMsg = {
       text: `*📥 URL List*\n\nSelect a file to download.`,
-      footer: "© Gojo-MD | Downloader",
+      footer: "© 𝙺𝙰𝚅𝙸𝙳𝚄-𝙼𝙳 | Downloader",
       title: "🔗 Your Download Links",
       buttonText: "📂 View URLs",
       sections: [{
